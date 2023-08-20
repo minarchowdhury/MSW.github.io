@@ -329,7 +329,7 @@ font:font-style font-variant font-weight font-size/line-height font-family|capti
         h5,
         h6 {
             font-weight: normal;
-            font-family: var(--Haffer-Regular);
+/*            font-family: var(--Haffer-Regular);*/
         }
         
         h1 {

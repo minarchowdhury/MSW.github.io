@@ -720,9 +720,10 @@ font:font-style font-variant font-weight font-size/line-height font-family|capti
             font-size: 100px;
             font-weight: 400;
             letter-spacing: -2px;
+            -webkit-letter-spacing: -2px;
             line-height: 98px;
             color: #ffffff;
-            font-family: serif;
+
         }
         
         .border-lines:first-child {
@@ -1420,9 +1421,9 @@ font:font-style font-variant font-weight font-size/line-height font-family|capti
                 font-weight: 500;
             }
             .hero-inner h2 {
-                font-size: 38px;
+                font-size: 34px;
                 line-height: normal;
-                max-width: 259px;
+                max-width: 260px;
             }
             .border-lines:first-child {
                 top: 129px;

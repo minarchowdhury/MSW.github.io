@@ -1423,7 +1423,7 @@ font:font-style font-variant font-weight font-size/line-height font-family|capti
             .hero-inner h2 {
                 font-size: 34px;
                 line-height: normal;
-                max-width: 260px;
+                max-width: 215px;
             }
             .border-lines:first-child {
                 top: 129px;

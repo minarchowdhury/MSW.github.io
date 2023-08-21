@@ -1426,7 +1426,7 @@ font:font-style font-variant font-weight font-size/line-height font-family|capti
                 height: 300px;
             }
             .hero-inner {
-                padding: 125px 0 135px;
+                padding: 125px 0 165px;
             }
             .hero-inner h6 {
                 font-size: 10px;

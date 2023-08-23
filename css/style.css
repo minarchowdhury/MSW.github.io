@@ -1,3 +1,41 @@
+@import url("https://p.typekit.net/p.css?s=1&k=fjk7mzj&ht=tk&f=7909.7913.49388.51205&a=551943&app=typekit&e=css");
+@font-face {
+    font-family: "runda";
+    src: url("https://use.typekit.net/af/2e47e7/000000000000000077359bec/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/2e47e7/000000000000000077359bec/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/2e47e7/000000000000000077359bec/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "runda";
+    src: url("https://use.typekit.net/af/91a73d/000000000000000077359c09/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/91a73d/000000000000000077359c09/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/91a73d/000000000000000077359c09/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "argent-cf";
+    src: url("https://use.typekit.net/af/0126af/00000000000000007735f8a8/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"), url("https://use.typekit.net/af/0126af/00000000000000007735f8a8/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"), url("https://use.typekit.net/af/0126af/00000000000000007735f8a8/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 100;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "argent-cf";
+    src: url("https://use.typekit.net/af/a7847e/000000000000000077368790/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff2"), url("https://use.typekit.net/af/a7847e/000000000000000077368790/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff"), url("https://use.typekit.net/af/a7847e/000000000000000077368790/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("opentype");
+    font-display: auto;
+    font-style: italic;
+    font-weight: 100;
+    font-stretch: normal;
+}
+
+
 /*--Resets --*/
 
 html,
@@ -640,6 +678,7 @@ html {
     position: absolute;
     min-width: 330px;
     background: rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
 }
 
 .header-nav ul li:hover .dropdown ul {
@@ -1501,7 +1540,7 @@ html {
         position: absolute;
         top: 140px;
         left: 0;
-        max-width: 380px;
+        width: 221px;
     }
     .border-lines:first-child {
         top: 129px;
@@ -1770,6 +1809,9 @@ html {
     .about-top-content {
         margin-top: 130px;
         display: block;
+    }
+    .about-heading span {
+        left: -30px;
     }
     .about-top-img {
         margin: 0;

@@ -611,6 +611,8 @@ html {
 .header-nav ul li {}
 
 .header-nav ul li a {
+    float: left;
+    width: 100%;
     font-size: 14px;
     letter-spacing: 3px;
     line-height: 35px;
@@ -1412,7 +1414,6 @@ html {
     .nav-expand .header-nav {
         display: flex;
         flex-flow: column;
-        margin: 0 auto;
         transform: translateX(0);
         overflow-y: scroll;
         background-color: #000;
@@ -1420,6 +1421,7 @@ html {
         top: 0;
         left: 0;
         height: 100vh;
+        text-align: center;
     }
     .nav-expand .phone-nav div:after,
     .nav-expand .phone-nav div:before {
@@ -1499,6 +1501,7 @@ html {
         position: absolute;
         top: 140px;
         left: 0;
+        max-width: 380px;
     }
     .border-lines:first-child {
         top: 129px;
@@ -1690,6 +1693,9 @@ html {
     /* start header section */
     .header-wrap {}
     .header-inner {}
+    .header-logo {
+        width: 150px;
+    }
     .header-nav {
         max-width: 570px;
     }

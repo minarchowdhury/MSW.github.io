@@ -1346,7 +1346,7 @@ html {
 
 .representative-item {
     float: left;
-    width: 46.5%;
+    width: 46.8%;
     padding-left: 30px;
     border-left: 2px solid #ac0707;
 }
@@ -1376,6 +1376,189 @@ html {
 
 
 /* ==== end service-details page ==== */
+
+
+/* === start contact page === */
+
+
+/* start contact hero section */
+
+.contact-hero .border-lines:first-child {
+    left: 470px;
+}
+
+
+/* end contact hero section */
+
+
+/* start contact section  */
+
+.contact-wrap {
+    padding: 100px 0 140px;
+}
+
+.contact-wrap .common-wrap {
+    position: relative;
+    max-width: 1500px;
+}
+
+.contact-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contact-content {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    gap: 100px;
+}
+
+.contact-content span {
+    position: absolute;
+    top: 15px;
+    left: -35px;
+    transform: rotate(-90deg);
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #ac0707;
+    font-weight: bold;
+    animation: yoyoAnimation 2s infinite alternate ease-in-out;
+}
+
+.contact-content span::after {
+    content: '';
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: #ac0606;
+    top: 16px;
+    left: -67px;
+}
+
+.contact-input-wrap {
+    width: 100%;
+    float: left;
+    max-width: 800px;
+}
+
+.contact-input {
+    float: left;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.contact-input input,
+textarea {
+    padding: 25px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #0d293a;
+    font-family: "runda", sans-serif;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid rgba(131, 131, 131, 0.5);
+}
+
+.input-name {
+    width: 100%;
+}
+
+.input-company {
+    width: 49%;
+}
+
+.input-phone {
+    width: 49%;
+}
+
+.input-email {
+    width: 100%;
+}
+
+#message {
+    width: 100%;
+    height: 362px;
+    resize: vertical;
+}
+
+.captcha {
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.captcha img {
+    height: 75px;
+    width: 300px;
+}
+
+.submit-btn {
+    float: left;
+    width: 100%;
+}
+
+.submit-btn input {
+    width: 280px;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #1b2541;
+    border: 1px solid #1b2541;
+    transition: 0.3s ease-in-out;
+}
+
+.submit-btn input:hover {
+    background-color: #ffffff;
+    color: #1b2541;
+}
+
+.contact-address-wrap {
+    max-width: 290px;
+}
+
+.contact-address {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-address h6 {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #253364;
+    font-weight: bold;
+}
+
+.contact-address p {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #253364;
+    margin-top: 10px;
+}
+
+
+/* end contact section  */
+
+
+/* === end contact page === */
 
 
 /* start footer section  */
@@ -1608,10 +1791,12 @@ html {
     }
     /* end practice section */
     /* === end home page === */
+    /* === start service page === */
     .service-hero .hero-inner h1 {
         font-size: 30px;
         line-height: 40px;
     }
+    /* === end service page === */
 }
 
 
@@ -1871,8 +2056,32 @@ html {
         line-height: 14px;
         margin-top: 10px;
     }
-    /* === end representative section */
+    /* end representative section */
     /* === end service-details page === */
+    /* === start contact page === */
+    .contact-hero .hero-inner h1 {
+        font-size: 45px;
+    }
+    .contact-hero .border-lines:first-child {
+        left: 220px;
+    }
+    .contact-wrap {
+        padding: 50px 0;
+    }
+    .input-company {
+        width: 100%;
+    }
+    .input-phone {
+        width: 100%;
+    }
+    .contact-content {
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .contact-address-wrap {
+        max-width: 600px;
+    }
+    /* === end contact page === */
     /* start footer section */
     .footer-wrap {
         padding-top: 70px;
@@ -2054,7 +2263,7 @@ html {
     /* === end home page === */
     /* ====start service page ==== */
     .service-hero .hero-inner h1 {
-        font-size: 40px;
+        font-size: 58px;
     }
     /* ====start service page ==== */
     /* ====start service-details page ==== */
@@ -2088,6 +2297,27 @@ html {
     }
     /* === end representative section */
     /* ====end service-details page ==== */
+    /* === start contact page === */
+    .contact-hero .hero-inner h1 {
+        font-size: 70px;
+    }
+    .contact-wrap {
+        padding: 50px 0;
+    }
+    .input-company {
+        width: 100%;
+    }
+    .input-phone {
+        width: 100%;
+    }
+    .contact-content {
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .contact-address-wrap {
+        max-width: 600px;
+    }
+    /* === end contact page === */
     /* start footer section  */
     .footer-right {
         width: 50%;
@@ -2137,7 +2367,7 @@ html {
     /* ===== end home page =====  */
     /* ====start service page ==== */
     .service-hero .hero-inner h1 {
-        font-size: 50px;
+        font-size: 75px;
     }
     /* ==== end service page ==== */
     /* === start service-details page  === */
@@ -2145,4 +2375,12 @@ html {
         width: 45%;
     }
     /* === end service-details page  === */
+    /* === start contact page === */
+    .input-company {
+        width: 48%;
+    }
+    .input-phone {
+        width: 48%;
+    }
+    /* === end contact page === */
 }

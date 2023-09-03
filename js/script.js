@@ -59,3 +59,40 @@ function changePage(pageNumber) {
 }
 
 // end blog page
+
+// start blog article page 
+const prevBtn = document.querySelector(".prev-btn");
+const closeBtn = document.querySelector(".close-btn");
+const nextBtn = document.querySelector(".next-btn");
+
+// Retrieve article id from query parameter (replace this with your actual method)
+const queryParams = new URLSearchParams(window.location.search);
+const articleId = queryParams.get("id");
+
+// Define the total number of articles (adjust this as needed)
+const totalArticles = Infinity;
+
+// Add event listeners to navigation buttons
+prevBtn.addEventListener("click", navigatePrev);
+closeBtn.addEventListener("click", navigateClose);
+nextBtn.addEventListener("click", navigateNext);
+
+function navigatePrev() {
+    const prevArticleId = parseInt(articleId) - 1;
+    if (prevArticleId >= 1) {
+        window.location.href = `blog-article.html?id=${prevArticleId}`;
+    }
+}
+
+function navigateClose() {
+    window.location.href = "blog.html";
+}
+
+function navigateNext() {
+    const nextArticleId = parseInt(articleId) + 1;
+    if (nextArticleId <= totalArticles) {
+        window.location.href = `blog-article.html?id=${nextArticleId}`;
+    }
+}
+
+// end  blog article page

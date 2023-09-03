@@ -1752,7 +1752,7 @@ textarea {
 .blog-content-heading {
     float: left;
     width: 100%;
-    padding-top: 280px;
+    padding-top: 190px;
     padding-bottom: 130px;
     background-color: #f4f5f7;
 }
@@ -1762,6 +1762,35 @@ textarea {
     margin: 0 auto;
     padding: 0 20px;
     clear: both;
+}
+
+.article-nav {
+    width: 150px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.article-nav a {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    padding: 10px 18px;
+    color: #ac0707;
+    border: 1px solid #ac0707;
+    transition: 0.3s ease-in-out;
+}
+
+.article-nav a:hover {
+    color: #ffffff;
+    background-color: #ac0707;
+}
+
+.blog-article-header-content {
+    float: left;
+    width: 100%;
 }
 
 .blog-content-heading span {
@@ -2046,6 +2075,170 @@ textarea {
 
 
 /* === end professionals page === */
+
+
+/* === start professionals-bio page === */
+
+.professionals-bio-wrap .common-wrap {
+    max-width: 1920px;
+}
+
+.professionals-bio-inner {
+    float: left;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: left;
+    gap: 60px;
+    flex-flow: row;
+}
+
+.professionals-bio-image {
+    margin-left: -20px;
+}
+
+.professionals-bio-image figure {
+    float: left;
+}
+
+.professionals-bio-image figure img {
+    max-width: 655px;
+    max-height: 990px;
+}
+
+.professionals-bio-content {
+    float: left;
+    width: 100%;
+    max-width: 915px;
+}
+
+.bio-heading {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.bio-heading .article-nav {
+    position: absolute;
+    top: -25px;
+    right: 0px;
+}
+
+.bio-heading h3 {
+    float: left;
+    width: 100%;
+    font-size: 36px;
+    color: #253364;
+}
+
+.bio-heading span {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    color: #253364;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.bio-contact {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-flow: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.bio-linkedin {
+    max-width: 40px;
+    max-height: 39px;
+}
+
+.bio-linkedin figure {}
+
+.bio-linkedin figure a {}
+
+.bio-linkedin figure a img {}
+
+.bio-contact-content {
+    float: left;
+    width: 80%;
+}
+
+.bio-contact-content ul {
+    float: left;
+    width: 100%;
+}
+
+.bio-contact-content ul li:first-child {
+    text-transform: uppercase;
+    color: #ac0707;
+    font-weight: bold;
+}
+
+.bio-contact-content ul li:nth-child(4) a {
+    color: #9e9fa4;
+}
+
+.bio-contact-content ul li {
+    font-size: 12px;
+    font-family: "Runda", sans-serif;
+    color: #253364;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.bio-contact-content ul li a {
+    font-size: 12px;
+    font-family: "Runda", sans-serif;
+    color: #253364;
+    font-weight: 100;
+}
+
+.bio-peragraph {
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.bio-peragraph p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #253364;
+    font-weight: 300;
+    margin-top: 24px;
+}
+
+.bio-education {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bio-education ul {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.bio-education ul li {
+    font-size: 12px;
+    line-height: 16px;
+    color: #253364;
+    font-weight: 300;
+    font-family: "Runda", sans-serif;
+}
+
+.bio-education ul li:first-child {
+    text-transform: uppercase;
+    color: #ac0707;
+    font-weight: bold;
+}
+
+
+/* === end professionals-bio page === */
 
 
 /* start footer section  */
@@ -2629,6 +2822,33 @@ textarea {
         letter-spacing: 0px;
     }
     /* === end professionals page === */
+    /* === start professionals-bio page === */
+    .professionals-bio-image {
+        margin: 0;
+    }
+    .professionals-bio-image figure img {
+        max-width: 280px;
+    }
+    .bio-heading h3 {
+        font-size: 30px;
+    }
+    .bio-heading .article-nav {
+        top: -550px;
+    }
+    .bio-heading span {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .bio-peragraph p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 10px;
+    }
+    .professionals-bio-inner {
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+    }
+    /* === end professionals-bio page === */
     /* start footer section */
     .footer-wrap {
         padding-top: 70px;
@@ -2925,6 +3145,23 @@ textarea {
         letter-spacing: 0px;
     }
     /* === end professionals page === */
+    /* === start professionals-bio page === */
+    .professionals-bio-image figure img {
+        max-width: 350px;
+    }
+    .bio-heading h3 {
+        font-size: 30px;
+    }
+    .bio-heading span {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .bio-peragraph p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 10px;
+    }
+    /* === end professionals-bio page === */
     /* start footer section  */
     .footer-right {
         width: 50%;
@@ -2932,7 +3169,7 @@ textarea {
     /* end footer section  */
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1366px) {
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
     /* ===== start home page ==== */
     /* start about section */
     .about-top-content {
@@ -3014,6 +3251,16 @@ textarea {
         letter-spacing: 0px;
     }
     /* === end professionals page === */
+    /* === start professionals-bio page === */
+    .professionals-bio-image figure img {
+        max-width: 470px;
+    }
+    .bio-peragraph p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+    /* === end professionals-bio page === */
 }
 
 @media only screen and (min-width: 1337px) and (max-width: 1645px) {
